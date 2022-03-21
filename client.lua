@@ -50,10 +50,10 @@ local position = {
 		SetBlipSprite (blip, 52)
 		SetBlipDisplay(blip, 4)
 		SetBlipScale  (blip, 0.8)
-		SetBlipColour (blip, 5)
+		SetBlipColour (blip, 25)
         SetBlipAsShortRange(blip, true)
         BeginTextCommandSetBlipName("STRING")
-        AddTextComponentString("LDT")
+        AddTextComponentString("Supérette")
         EndTextCommandSetBlipName(blip)
 	end
 
